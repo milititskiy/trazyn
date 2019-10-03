@@ -1,0 +1,27 @@
+{
+  "name": "tfs-task",
+  "version": "1.0.0",
+  "description": "TFS Task For StoreNext Build Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "tfx build tasks delete & tsc index.ts & tfx build tasks upload --task-path .\\"
+  },
+  "keywords": [
+    "newman",
+    "smtp",
+    "test"
+  ],
+  "author": "Kirill Milititskiy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/nodemailer": "^6.2.1",
+    "azure-pipelines-task-lib": "^2.8.0",
+    "cheerio": "^1.0.0-rc.3",
+    "nodemailer": "^6.3.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.9",
+    "@types/q": "^1.5.2"
+  }
+}
