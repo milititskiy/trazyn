@@ -1,10 +1,10 @@
 {
     "manifestVersion": 1,
-    "id": "{{ Extension ID }}",
-    "version": "{{ Extension Version }}",
-    "name": "{{ Extenson Name }}",
-    "publisher": "{{ Publisher ID }}",
-    "description": "{{ Description }}",
+    "id": "e6a8b91c-db4b-4395-9891-12eadc01542a",
+    "version": "0.0.1",
+    "name": "Trazyn",
+    "publisher": "Kirill Milititskiy",
+    "description": "Runs Postman collections i CLI and parses report and sends to SMTP server",
     "targets": [
       {
         "id": "Microsoft.VisualStudio.Services"
