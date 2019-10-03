@@ -52,25 +52,25 @@
     ],
     "links": {
       "overview": {
-        "uri": "https://github.com/aliencube/AzureDevOps.Extensions/blob/master/README.md"
+        "uri": "https://github.com/milititskiy/trazyn/blob/master/README.md"
       },
       "license": {
-        "uri": "https://github.com/aliencube/AzureDevOps.Extensions/blob/master/LICENSE"
+        "uri": "https://github.com/milititskiy/trazyn/blob/master/LICENSE"
       },
       "repository": {
-        "uri": "https://github.com/aliencube/AzureDevOps.Extensions"
+        "uri": "https://github.com/milititskiy/trazyn"
       },
       "issues": {
-        "uri": "https://github.com/aliencube/AzureDevOps.Extensions/issues"
+        "uri": "https://github.com/milititskiy/trazyn/issues"
       }
     },
     "repository": {
       "type": "git",
-      "uri": "https://github.com/aliencube/AzureDevOps.Extensions"
+      "uri": "https://github.com/milititskiy/trazyn"
     },
     "badges": [
       {
-        "href": "https://dev.azure.com/aliencube/AzureDevOps.Extensions/_build/latest?definitionId=-1",
+        "href": "https://dev.azure.com/milititskiy3/milititskiy.kirill/_build",
         "uri": "https://dev.azure.com/aliencube/AzureDevOps.Extensions/_apis/build/status/%5Bnetlify%5D%20dev%2C%20feature%2C%20hotfix",
         "description": "Build Status"
       }
