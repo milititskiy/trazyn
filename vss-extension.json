@@ -1,0 +1,86 @@
+{
+  "manifestVersion": 1,
+  "id": "e6a8b91c-db4b-4395-9891-12eadc01542a",
+  "version": "0.0.2",
+  "name": "Trazyn",
+  "publisher": "KirillMilititskiy",
+  "description": "Runs Postman collections in CLI and parses htm report if present then sends it to Configured SMTP server",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "tags": [
+    "trazyn",
+    "postman"
+  ],
+  "galleryFlags": [
+    "Free",
+    "Public"
+  ],
+  "icons": {
+    "default": "icon.png"
+  },
+  "content": {
+    "details": {
+      "path": "README.md"
+    }
+  },
+  "files": [
+    {
+      "path": "images",
+      "addressable": true
+    },
+    {
+      "path": "src/install",
+      "packagePath": "install"
+    },
+    
+    {
+      "path": "src/node_modules",
+      "packagePath": "install/node_modules"
+    }
+  
+  ],
+  "links": {
+    "overview": {
+      "uri": "https://github.com/milititskiy/trazyn/blob/master/README.md"
+    },
+    "license": {
+      "uri": "https://github.com/milititskiy/trazyn/blob/master/LICENSE"
+    },
+    "repository": {
+      "uri": "https://github.com/milititskiy/trazyn"
+    },
+    "issues": {
+      "uri": "https://github.com/milititskiy/trazyn/issues"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/milititskiy/trazyn"
+  },
+  "badges": [
+    {
+      "href": "https://dev.azure.com/milititskiy3/milititskiy.kirill/_build",
+      "uri": "https://dev.azure.com/aliencube/AzureDevOps.Extensions/_apis/build/status/%5Bnetlify%5D%20dev%2C%20feature%2C%20hotfix",
+      "description": "Build Status"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "install-task",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "install"
+      }
+    }
+    
+  ]
+}
