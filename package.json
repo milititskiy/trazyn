@@ -1,6 +1,6 @@
 {
   "name": "tfs-task",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TFS Task For StoreNext Build Server",
   "main": "index.js",
   "scripts": {
