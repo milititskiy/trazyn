@@ -1,3 +1,4 @@
+
 import task = require('azure-pipelines-task-lib');
 import path = require('path');
 import nodemailer = require('nodemailer');
@@ -109,6 +110,7 @@ async function buildResultTaskFailed(message: string) {
     task.setResult(task.TaskResult.Failed, message);
     
 }
+
 
 
 

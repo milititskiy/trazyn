@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "manifestVersion": 1,
   "id": "e6a8b91c-db4b-4395-9891-12eadc01542a",
@@ -84,3 +85,105 @@
     
   ]
 }
+=======
+{
+    "manifestVersion": 1,
+    "id": "e6a8b91c-db4b-4395-9891-12eadc01542a",
+    "version": "0.0.1",
+    "name": "Trazyn",
+    "publisher": "Kirill Milititskiy",
+    "description": "Runs Postman collections i CLI and parses report and sends to SMTP server",
+    "targets": [
+      {
+        "id": "Microsoft.VisualStudio.Services"
+      }
+    ],
+    "categories": [
+      "Azure Pipelines"
+    ],
+    "tags": [
+      "netlify"
+    ],
+    "galleryFlags": [
+      "Free",
+      "Public"
+    ],
+    "icons": {
+      "default": "icon.png"
+    },
+    "content": {
+      "details": {
+        "path": "README.md"
+      }
+    },
+    "files": [
+      {
+        "path": "images",
+        "addressable": true
+      },
+      {
+        "path": "src/install",
+        "packagePath": "install"
+      },
+      {
+        "path": "src/deploy",
+        "packagePath": "deploy"
+      },
+      {
+        "path": "src/node_modules",
+        "packagePath": "install/node_modules"
+      },
+      {
+        "path": "src/node_modules",
+        "packagePath": "deploy/node_modules"
+      }
+    ],
+    "links": {
+      "overview": {
+        "uri": "https://github.com/milititskiy/trazyn/blob/master/README.md"
+      },
+      "license": {
+        "uri": "https://github.com/milititskiy/trazyn/blob/master/LICENSE"
+      },
+      "repository": {
+        "uri": "https://github.com/milititskiy/trazyn"
+      },
+      "issues": {
+        "uri": "https://github.com/milititskiy/trazyn/issues"
+      }
+    },
+    "repository": {
+      "type": "git",
+      "uri": "https://github.com/milititskiy/trazyn"
+    },
+    "badges": [
+      {
+        "href": "https://dev.azure.com/milititskiy3/milititskiy.kirill/_build",
+        "uri": "https://dev.azure.com/aliencube/AzureDevOps.Extensions/_apis/build/status/%5Bnetlify%5D%20dev%2C%20feature%2C%20hotfix",
+        "description": "Build Status"
+      }
+    ],
+    "contributions": [
+      {
+        "id": "install-task",
+        "type": "ms.vss-distributed-task.task",
+        "targets": [
+          "ms.vss-distributed-task.tasks"
+        ],
+        "properties": {
+          "name": "install"
+        }
+      },
+      {
+        "id": "deploy-task",
+        "type": "ms.vss-distributed-task.task",
+        "targets": [
+          "ms.vss-distributed-task.tasks"
+        ],
+        "properties": {
+          "name": "deploy"
+        }
+      }
+    ]
+  }
+>>>>>>> 2d5af41c017dbf2b3365ba7332cad1e05a3eab4b
