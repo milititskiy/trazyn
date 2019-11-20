@@ -16,6 +16,7 @@
             "name":"sender",
             "displayName":"Mailer",
             "isExpanded":false
+            
         }
     ],
     "instanceNameFormat": "StoreNext",
