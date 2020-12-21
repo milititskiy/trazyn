@@ -1,6 +1,6 @@
 ## Trazin Extension ##
 
-This extension provides basic functionality to recive the emails withe the attached report after the 'newman'( CLI extention of POSTMAN) is finished and generated the report HTML file.
+This extension provides basic functionality to recieve the emails withe the attached report after the 'newman'( CLI extention of POSTMAN) is finished and generated the report HTML file.
 
 ## Setup the extention ##
 The extention is very simple to configure. 
