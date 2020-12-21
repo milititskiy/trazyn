@@ -1,4 +1,16 @@
-# trazyn
+#Trazin Extension
+
+This extension provides basic functionality to recive the emails withe the attached report after the 'newman'( CLI extention of POSTMAN) is finished and generated the report HTML file.
+
+#Setup the extention
+The extention is very simple to configure. 
+#Arguments section
+Is used to make a nescessary setup for the newman CLI. 
+Starts with 'run'and uses standard newman options to verify the the necessary parameters to run the collection:
+run <file1.json> 
+run <file1.json> -e <environment.json> 
+
+
 ## License ##
 
 **AzureDevOps.Extensions** is released under [MIT License](http://opensource.org/licenses/MIT)
