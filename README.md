@@ -9,7 +9,9 @@ The extention is very simple to configure.
 
 Is used to make a nescessary setup for the newman CLI. 
 Starts with 'run'and uses standard newman options to verify the the necessary parameters to run the collection:
-run <file1.json> 
+
+run <file1.json>
+
 run <file1.json> -e <environment.json> 
 
 ## Mailer Section ##
